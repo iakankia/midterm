@@ -1,5 +1,23 @@
 @media(max-width: 768px;){
 	.second-div{
-		width: 450px; 
+		flex-direction: column;
+		flex-wrap: nowrap;
+		margin-bottom: 200px;
+		/*width: 450px; */
+	}
+}
+
+@media(max-width: 768px){
+	.background{
+		flex-direction: column;
+		/*width: 760px;*/
+	}
+}
+@media(max-width: 768px){
+	.bg{
+		width: 768px;
+	}
+	.box-container{
+		width: 130px;
 	}
 }
